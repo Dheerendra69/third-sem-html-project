@@ -1,4 +1,4 @@
-# environmental-chemistry-project
+# Environmental-Chemistry-Project 
 a website which provides articles for difficult situation of environment
 
 
