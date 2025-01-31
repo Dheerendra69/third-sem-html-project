@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Centering the Title */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+}
+
+/* Paragraph Styling */
+p {
+  color: #333;
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+/* Section Headers */
+b {
+  display: block;
+  font-size: 1.5rem;
+  color: #2980b9;
+  margin-top: 20px;
+}
+
+/* Container Styling */
+.container {
+  max-width: 800px;
+  background: #ffffff;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Enhancing Readability */
+.container p {
+  text-indent: 20px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
